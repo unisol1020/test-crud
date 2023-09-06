@@ -1,0 +1,1 @@
+import {createContext} from 'react';import {IProductsContext} from '../types/products-context';const ProductsContext = createContext<IProductsContext>({  products: [],  setProducts: () => {  }});export const ProductsProvider = ProductsContext.Provider;export default ProductsContext;
